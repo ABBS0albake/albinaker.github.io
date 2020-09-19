@@ -22,7 +22,24 @@ function visaDejten() {
       img.height = 800
       let div = document.getElementById('resultat')
       div.appendChild(img)
-    } else {
+        } 
+    else if(name.value.toLowerCase() === "nellie") {
+        let img = document.createElement('img')
+        img.src = nellie
+        img.width = 1200
+        img.height = 800
+        let div = document.getElementById('resultat')
+        div.appendChild(img) } 
+        
+    else if(name.value.toLowerCase() === "izabella") {
+            let img = document.createElement('img')
+            img.src = nellie
+            img.width = 1200
+            img.height = 800
+            let div = document.getElementById('resultat')
+            div.appendChild(img)
+    } 
+    else {
       alert("sorry din looser, du finns inte med ;)")
     }
   }
