@@ -11,20 +11,18 @@ function visaDejten() {
     if (name.value.toLowerCase() === "johanna") {
       let img = document.createElement('img')
       img.src = johanna
-      img.width = 200
-      img.height = 300
+      img.width = 600
+      img.height = 400
       let div = document.getElementById('resultat')
       div.appendChild(img)
-    } 
-    else if(name.value.toLowerCase() === "henry") {
+    } else if(name.value.toLowerCase() === "henry") {
       let img = document.createElement('img')
       img.src = henry
-      img.width = 1000
+      img.width = 1200
       img.height = 800
       let div = document.getElementById('resultat')
       div.appendChild(img)
-        } 
-    else if(name.value.toLowerCase() === "nellie") {
+    } else if(name.value.toLowerCase() === "nellie") {
         let img = document.createElement('img')
         img.src = nellie
         img.width = 1200
@@ -39,8 +37,7 @@ function visaDejten() {
             img.height = 800
             let div = document.getElementById('resultat')
             div.appendChild(img)
-    } 
-    else {
-      alert("sorry din looser, du finns inte med ;)")
+    } else {
+      alert("sorry din looser, du finns inte med!")
     }
   }
