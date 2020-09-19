@@ -1,6 +1,6 @@
 let johanna="IMG_8320.JPG"
 let henry="IMG_8843.JPG"
-
+let nellie="IMG_8178.JPG"
 
 
 function visaDejten() {
@@ -15,7 +15,8 @@ function visaDejten() {
       img.height = 300
       let div = document.getElementById('resultat')
       div.appendChild(img)
-    } else if(name.value.toLowerCase() === "henry") {
+    } 
+    else if(name.value.toLowerCase() === "henry") {
       let img = document.createElement('img')
       img.src = henry
       img.width = 1000
